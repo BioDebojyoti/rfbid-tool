@@ -1,2 +1,3 @@
 dist
 rfbid.egg-info
+rfbid/__pycache__

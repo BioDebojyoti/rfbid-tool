@@ -7,7 +7,7 @@ It provides a streamlined pipeline to go from raw NPX assay files (CSV or XLSX) 
 
 ## Features
 
-- Read OLINK proteomics data (`.csv` or `.xlsx`, `;` separated CSV supported)
+- Read OLINK proteomics data (`.csv`, `;` separated CSV supported)
 - Automatically filter out control samples (`Control`, `CONTROL`)
 - Select panel of interest (first panel or user-specified)
 - Reshape NPX data into **samples × assays** format, with replicate aggregation (mean/median)

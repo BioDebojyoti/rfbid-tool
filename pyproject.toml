@@ -1,6 +1,6 @@
 [project]
 name = "rfbid"
-version = "0.1.2"
+version = "1.0.0"
 description = "Random Forest-based Biomarker Importance Discovery tool for OLINK panels"
 readme = "README.md"
 authors = [{name = "Debojyoti Das", email = "debojyoti.das@liu.se"}]
