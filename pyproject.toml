@@ -1,0 +1,20 @@
+[project]
+name = "rfbid"
+version = "0.1.0"
+description = "Random Forest-based Biomarker Importance Discovery tool for OLINK panels"
+readme = "README.md"
+authors = [{name = "Debojyoti Das", email = "debojyoti.das@liu.se"}]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+]
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+rfbid = "rfbid.cli:main"
