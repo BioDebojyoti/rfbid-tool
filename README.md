@@ -78,4 +78,4 @@ for k, v in computed.items():
 plot_selection_frequency(freq)
 ```
 
-![Random Forest importance plot](https://github.com/BioDebojyoti/rfbid-tool/blob/dev/docs/figures/selection_frequency.png)
+![Random Forest importance plot](https://raw.githubusercontent.com/BioDebojyoti/rfbid-tool/dev/docs/figures/selection_frequency.png)
